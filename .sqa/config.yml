@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-seashell-chinook.sh
-        container: qc.acc_flaky-salmon-devil
+        - /usr/bin/env sh .sqa/script.goopy-fuchsia-budgerigar.sh
+        container: qc.acc_lousy-fuchsia-hamster
   QC.Doc:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-pink-octopus.sh
-        container: qc.doc_snippy-auburn-grouse
+        - /usr/bin/env sh .sqa/script.snoopy-aqua-zebu.sh
+        container: qc.doc_slaphappy-alizarin-stoat
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-linen-uakari.sh
-        container: qc.doc_fuzzy-sepia-cheetah
+        - /usr/bin/env sh .sqa/script.snoopy-alizarin-affenpinscher.sh
+        container: qc.doc_shabby-chocolate-hippopotamus
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-ruby-discus.sh
-        container: qc.doc_whiny-plum-butterfly
+        - /usr/bin/env sh .sqa/script.gimpy-celadon-kiwi.sh
+        container: qc.doc_jumpy-buff-monster
   QC.Lic:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-harlequin-bandicoot.sh
-        container: qc.lic_silly-azure-chow
+        - /usr/bin/env sh .sqa/script.geeky-eggplant-setter.sh
+        container: qc.lic_shabby-copper-raccoon
   QC.Sec:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-harlequin-catfish.sh
-        container: qc.sec_gloppy-sepia-saola
+        - /usr/bin/env sh .sqa/script.slaphappy-charcoal-indri.sh
+        container: qc.sec_sickly-saffron-echidna
   QC.Sty:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-ultramarine-lemur.sh
-        container: qc.sty_hasty-mauve-horse
+        - /usr/bin/env sh .sqa/script.scaly-magenta-chin.sh
+        container: qc.sty_wiggy-orchid-pig
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-cobalt-booby.sh
-        container: qc.sty_pasty-dandelion-dane
+        - /usr/bin/env sh .sqa/script.snoopy-tan-chinook.sh
+        container: qc.sty_freaky-copper-dogfish
   QC.Uni:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-maroon-bobcat.sh
-        container: qc.uni_gummy-ultramarine-fousek
+        - /usr/bin/env sh .sqa/script.snazzy-cinnabar-walrus.sh
+        container: qc.uni_trippy-aqua-stoat
   QC.Ver:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-cerise-gharial.sh
-        container: qc.ver_gloppy-turquoise-mongoose
+        - /usr/bin/env sh .sqa/script.bluesy-carmine-flounder.sh
+        container: qc.ver_snazzy-silver-tuatara
 timeout: 5400
