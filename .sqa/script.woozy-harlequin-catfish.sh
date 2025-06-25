@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.geo3bcn.csic.es/dtgeo/dtc-v2/meteo-era5 &&
-    pytest  --json-report  --json-report-indent 4
+cd gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/meteo-era5 &&
+    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
 )
